@@ -1,0 +1,39 @@
+@media (max-width: 1140px) {
+    .container {
+        width: 1000px;
+    }
+    .header {
+        max-width: 1000px;
+    }
+    .header-logo {
+        margin-left: 15px;
+    }
+    .menu-item {
+        margin-left: 300px;
+    }
+    .menu-items:nth-child(5) {
+        margin-right: 150px;
+    }
+    .top {
+        display: inline-block;
+    }
+    .top-title {
+        margin-right: 290px;
+    }
+    .top-img {
+        width: 500px;
+        height: 450px;
+        margin-left: 55%;
+    }
+    .top-info {
+        margin: 60px 7%;
+    }
+    .map-image {
+        width: 950px;
+        height: 500px;
+    }
+    .map-spons__img {
+        width: 950px;
+        height: 200px;
+    }
+}

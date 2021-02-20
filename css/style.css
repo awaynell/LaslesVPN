@@ -19,7 +19,7 @@ ul {
 
 .container {
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
     padding: 0 10px;
 }
 
@@ -588,13 +588,18 @@ ul {
 
 .slick-arrow.slick-prev {
     background: url(../img/leftred.svg) center/40% no-repeat;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     color: white;
     padding: 20px;
     left: 90%;
     top: 120%;
     outline: none;
+}
+
+.slick-arrow.slick-prev:hover {
+    box-shadow: 3px 3px 45px 25px rgba(247, 0, 0, 0.2) inset;
+    transition: ease 0.3s;
 }
 
 
@@ -604,19 +609,14 @@ ul {
     background: url(../img/rarrow.svg) center/40% red no-repeat;
     right: -10px;
     top: 120%;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
 }
 
 
 /* Стрелка не активная */
 
-.slick-arrow.slick-disabled {
-    background: url(../img/leftred.svg) center/40% no-repeat;
-    width: 60px;
-    height: 60px;
-    color: white;
-}
+.slick-arrow.slick-disabled {}
 
 
 /* Точки (булиты) */
@@ -657,4 +657,56 @@ ul {
     border: none;
     cursor: pointer;
     outline: none;
+}
+
+.subscribe {}
+
+.subscribe-info {
+    padding: 50px 80px 30px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    box-shadow: 0px 49px 100px -1px rgba(49, 55, 60, 0.2);
+}
+
+.sub-info {
+    width: 370px;
+}
+
+.subscribe-title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+    color: #0B132A;
+    margin-bottom: 10px;
+}
+
+.subscribe-text {
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    margin-bottom: 20px;
+    order: 2;
+}
+
+.subscribe-link {
+    font-weight: 700;
+    background: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid #F53838;
+    padding: 18px 65px;
+    color: #F53838;
+}
+
+.subscribe-link:hover {
+    color: white;
+    background: #F53838;
+    border: 2px solid #F53838;
+    box-shadow: 0px 30px 98px -15px #F53838;
+    transition: ease 0.3s;
 }
