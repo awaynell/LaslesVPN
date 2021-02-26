@@ -1,39 +1,33 @@
-@media (max-width: 1140px) {
-    .container {
-        width: 1000px;
-    }
-    .header {
-        max-width: 1000px;
-    }
-    .header-logo {
-        margin-left: 15px;
-    }
+@media (max-width: 1024px) {
     .menu-item {
-        margin-left: 300px;
+        margin-left: 30%;
     }
     .menu-items:nth-child(5) {
-        margin-right: 150px;
+        margin-right: 15%;
     }
-    .top {
-        display: inline-block;
+    .subtop-item {
+        margin-left: 25px;
     }
-    .top-title {
-        margin-right: 290px;
+    .subtop-items {
+        padding-left: 5px;
     }
-    .top-img {
-        width: 500px;
-        height: 450px;
-        margin-left: 55%;
+    .plan__inner {
+        flex: 0 1 33.333%;
     }
-    .top-info {
-        margin: 60px 7%;
+    .plan-items {
+        white-space: nowrap;
+        padding: 0 50px;
     }
     .map-image {
-        width: 950px;
-        height: 500px;
+        margin: 0;
+        width: 97vw;
+        height: 539px;
+    }
+    .map-spons {
+        margin: 0;
     }
     .map-spons__img {
-        width: 950px;
+        width: 97vw;
         height: 200px;
     }
 }
