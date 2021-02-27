@@ -89,6 +89,10 @@ body {
     font-weight: normal;
 }
 
+.fixed-page {
+    overflow: hidden;
+}
+
 ul {
     list-style: none;
 }
@@ -104,6 +108,11 @@ ul {
     padding-top: 40px;
     max-width: 1440px;
     margin: auto;
+}
+
+.burger__inner {
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-logo {
