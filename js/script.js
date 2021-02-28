@@ -14,3 +14,21 @@ $(document).ready(function() {
         $('body').toggleClass('fixed-page');
     });
 });
+$(document).ready(function() {
+    $('.footer-slider-one').click(function(event) {
+        $('.footer-item.one').toggleClass('.active').next().slideToggle(300);
+    });
+});
+
+$(document).ready(function() {
+    $('.footer-slider-two').click(function(event) {
+        $('.footer-item.two').toggleClass('.active').next().slideToggle(300);
+    });
+});
+
+
+$(document).ready(function() {
+    $('.footer-slider-three').click(function(event) {
+        $('.footer-item.three').toggleClass('.active').next().slideToggle(300);
+    });
+});

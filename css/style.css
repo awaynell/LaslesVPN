@@ -847,8 +847,6 @@ ul {
     line-height: 30px;
 }
 
-.footer-social__media {}
-
 .footer-media__link {
     position: relative;
     border-radius: 50px;
@@ -875,17 +873,24 @@ ul {
 
 .footer-links {
     display: flex;
+    align-items: center;
+}
+
+.footer-links-land {
+    display: flex;
     align-items: flex-start;
 }
 
 .footer-items {
     margin-right: 50px;
+    display: block;
 }
 
 .footer-items a {
     margin-left: 40px;
     text-decoration: none;
     color: #4F5665;
+    display: flex;
 }
 
 .footer-item {
@@ -893,6 +898,10 @@ ul {
     line-height: 30px;
     color: #4F5665;
     margin-bottom: 10px;
+}
+
+.spoiler {
+    display: none;
 }
 
 .footer-item:first-child {
