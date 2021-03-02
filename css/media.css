@@ -162,7 +162,6 @@
     .subtop-items:before {
         left: 32%;
     }
-    .subtop__title {}
     .plan__inner {
         flex-direction: column;
         justify-content: start;
